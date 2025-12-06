@@ -1,0 +1,16 @@
+  988  make qemu
+  989  make clean - > make -> make qemu
+  990  make clean - > make -> make qemu
+  991  make clean - > make -> make qemu
+  992  make clean
+  993  make qemu
+  994  ls
+  995  cd Desktop
+  996  cd cs149
+  997  ls
+  998  cd xv6-labs-2023
+  999  ls
+ 1000  make qemu
+ 1001  cd Desktop/cs149/xv6-labs-2023
+ 1002  make GRADEFLAGS=sleep grade
+ 1003  ./grade-lab-util sleep
